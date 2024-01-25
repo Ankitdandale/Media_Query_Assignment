@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5 Answer</title>
+</head>
+<style>
+   body
+   {
+    margin: 0;
+   }
+    .container
+    {
+        display: flex;
+           font-size: xx-large;
+           min-height: 100vh;
+           flex-direction: column;
+        
+    }
+    .header
+    {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    
+    }
+    .main{
+         display: flex;
+         flex-direction: column;
+         flex: 1;
+        
+    }
+    .main1,.main2
+    {
+        background-color: #ddd;
+        padding: 20px;
+        text-align: center;
+    }
+    .main1
+    {
+        background-color: aquamarine;
+        color: white;
+      
+        
+    }
+    .main2
+    {
+        color: white;
+        background-color: orangered;
+        
+       
+    }
+    .Footer
+    {
+        color: white;
+        background-color: black;
+        padding: 20px;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 768px) {
+        .container
+        {
+            flex-direction: row;
+        }
+        .main1,.main2
+        {
+            flex: 1;
+        }
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="header"> Box1 </div>
+        <div class="main">
+            <div class="main1">Box2</div> 
+            <div class="main2">Box3</div>
+        </div>
+        <div class="Footer">Box4</div>
+
+    </div>
+</body>
+</html>
